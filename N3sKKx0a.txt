@@ -821,7 +821,7 @@ function MainHolder:Window(HubTitle)
     TabsLine.Parent = TabsFrame
     TabsLine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     TabsLine.Position = UDim2.new(-0.0178861786, 0, 1.03125, 0)
-    TabsLine.Size = UDim2.new(0, 635, 0, 0)
+    TabsLine.Size = UDim2.new(0, 100, 0)
     
     ContainerHold.Name = "ContainerHold"
     ContainerHold.Parent = MainFrame
