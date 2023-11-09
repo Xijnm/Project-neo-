@@ -802,7 +802,7 @@ function MainHolder:Window(HubTitle)
     TabsFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
     TabsFrame.BackgroundTransparency = 1.000
     TabsFrame.Position = UDim2.new(0.0202808119, 0, 0.115009747, 0)
-    TabsFrame.Size = UDim2.new(0, 615, 0, 32)
+    TabsFrame.Size = UDim2.new(0, 995, 0, 32)
     
     TabsHolder.Name = "TabsHolder"
     TabsHolder.Parent = TabsFrame
