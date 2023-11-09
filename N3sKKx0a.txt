@@ -234,7 +234,7 @@ function MainHolder:Window(HubTitle)
     MainFrame.Parent = MangoHub
     MainFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
     MainFrame.Position = UDim2.new(0.224070221, 0, 0.0417287573, 0)
-    MainFrame.Size = UDim2.new(0, 1000, 0, 513)
+    MainFrame.Size = UDim2.new(0, 1000, 0, 700)
     
     MainFrameCorner.CornerRadius = UDim.new(0, 5)
     MainFrameCorner.Name = "MainFrameCorner"
@@ -1302,7 +1302,7 @@ function MainHolder:Window(HubTitle)
             Toggle.Font = Enum.Font.Gotham
             Toggle.Text = ""
             Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
-            Toggle.TextSize = 14.000
+            Toggle.TextSize = 20.000
             
             ToggleCorner.CornerRadius = UDim.new(0, 3)
             ToggleCorner.Name = "ToggleCorner"
@@ -1317,14 +1317,14 @@ function MainHolder:Window(HubTitle)
             ToggleText.Font = Enum.Font.Gotham
             ToggleText.Text = Text
             ToggleText.TextColor3 = Color3.fromRGB(255, 255, 255)
-            ToggleText.TextSize = 14.000
+            ToggleText.TextSize = 20.000
             ToggleText.TextXAlignment = Enum.TextXAlignment.Left
             
             ToggleFrame.Name = "ToggleFrame"
             ToggleFrame.Parent = Toggle
             ToggleFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
             ToggleFrame.Position = UDim2.new(0.918279529, 0, 0.152329743, 0)
-            ToggleFrame.Size = UDim2.new(0, 28, 0, 24)
+            ToggleFrame.Size = UDim2.new(0, 35, 0, 24)
             
             ToggleFrameCorner.CornerRadius = UDim.new(0, 3)
             ToggleFrameCorner.Name = "ToggleFrameCorner"
