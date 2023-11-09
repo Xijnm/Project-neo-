@@ -234,7 +234,7 @@ function MainHolder:Window(HubTitle)
     MainFrame.Parent = MangoHub
     MainFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
     MainFrame.Position = UDim2.new(0.224070221, 0, 0.0417287573, 0)
-    MainFrame.Size = UDim2.new(0, 641, 0, 513)
+    MainFrame.Size = UDim2.new(0, 1000, 0, 513)
     
     MainFrameCorner.CornerRadius = UDim.new(0, 5)
     MainFrameCorner.Name = "MainFrameCorner"
